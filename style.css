@@ -1,0 +1,741 @@
+*{
+    padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+ul,li{
+    list-style: none;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+.over:before,.over:after{
+	content:"";
+	display:table;
+}
+.over:after{
+	clear:both;
+}
+body{
+    
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif; 
+    margin-top: 50px;
+    
+}
+
+            /*aside start*/
+
+.ka{
+    color: #fff;
+    float: right;
+    text-align: right;
+    text-decoration: underline;
+
+    margin-left: -15px;
+    
+}
+
+.ka:hover{
+    color:#fff;
+    box-shadow: 0px 0px 3px #111;
+    text-decoration: none;
+    
+}
+.heading{
+    width: 70%;
+    float: left;
+}
+aside{
+    color:#fff;
+   
+}
+
+
+.abc{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: -15px;
+}
+.abc:active{
+    color: #f6ff00;
+}
+.img img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mb{
+    margin-bottom: 50px;
+}
+.top h1{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.top h3{
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.a,.b,.c,.d{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.a{
+    background: red;
+}
+.b{
+    background: #fff;
+    color:#2c78c8;
+    line-height: 1;
+}
+.c{
+    background: #e64b86;
+}
+.d{
+    background: #1a6ff8;
+    color:#fff;
+}
+
+
+
+
+.heading h1{
+    color:#fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+.heading h1 span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*index page*/
+.head{
+    position: relative;
+}
+.var-menu{
+    position: absolute;
+    right: 0;
+}
+
+.head h1{
+    font-size: 100px;
+    color: #fff;
+    padding-left: 15px;
+}
+.but{
+    background: #304ffe;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+.lay{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top: -180px;
+}
+.video i.fas{
+    font-size: 30px;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: tomato;
+    
+}
+
+.var-menu ul{
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+
+.var-menu ul li{
+    padding: 5px 20px;
+    float: left;
+}
+
+.var-menu ul li a{
+    color:#fff
+    
+    
+
+}
+
+
+
+
+
+/*portfolio */
+
+
+.portref{
+padding: 8px 13px;
+font-size: 15px;
+color: #000 !important;
+float: right;
+text-align:left !important;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.portref:hover{
+    background: #2e4dd2;
+    color: #fff !important;
+}
+
+.skill-car{
+    margin-right: 20px;
+    width:22%;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.skill-car img{
+    height: 200px;
+}
+.skill-car:hover{
+    color:#2e4dd2;
+}
+.skill-car h5{
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+
+.skill-car h5 span{
+    font-weight: 700;
+}
+.skill-car p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+/*skill & service page start*/
+
+
+.skill-card{
+    padding: 25px 0;
+    margin-right: 20px;
+    width:22%;
+    margin-bottom: 20px;
+    
+    
+}
+.skill-card img{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.skill-card p{
+    font-size: 15px;
+}
+.skill-card h5{
+    color: #2e4dd2;
+    margin-bottom: 10px;
+}
+
+.skill-card a{
+
+    color:#e56353;
+}
+
+.pic{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.pic img{
+    width: 100px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+
+
+
+.mess{
+    background: #2f4efb;
+    margin-bottom: 20px;
+}
+
+
+.message {
+    display: inline-block;
+    position: relative;
+    background: white;
+    margin: 50px 30px 0 15px;
+    border-radius: 5px;
+  }
+
+
+.message:before {
+
+    position: absolute;
+    content: '';
+    border-style: solid;
+    left: 50PX;     
+    bottom: -40px;
+    border-width: 20px 20px 20px 00px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+
+  .com img{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .com span{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:#fff;
+
+  }
+
+
+/* contact page start*/
+
+
+
+.av{
+    background: #304ffe;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.card-icon i{
+    color:#304ffe;
+    font-size: 30px;
+    line-height: 2;
+}
+.card-text h2{
+    text-transform: capitalize;
+
+}
+.abd {
+    text-align: center;
+    color: #fff;
+    background: #ffd703;
+    border-radius: 3px;
+    width: 25%;
+    padding: 3px 0;
+}
+
+.ask{
+    border-top: 1px solid #f1f1f1;
+    margin-bottom: -16px;
+}
+.ab{
+    padding: 15px 0;
+    width: 75%;
+}
+.sec{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*   for 500px up screen for*/
+
+
+@media (max-width:768px) { 
+
+    /*aside*/
+    aside{
+        border: none;
+    }
+
+.icon {
+    position: fixed;
+    right: 0;
+    bottom: 40%;
+}
+.icon a{
+    display: block;
+    margin: 5px;
+}
+
+.tog{
+    margin-top: -128px;
+}
+
+.img img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.top h1{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.top h3{
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+    
+/*index page*/
+
+.head h1{
+    font-size: 70px;
+    
+    
+}
+.head{
+    margin-bottom: 250px;
+}
+.var-menu{
+   margin-top: 0px;
+   margin-right: -250px;
+}
+
+
+/*portfolio*/
+.skill-car{
+    width: 45%;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+
+/*contact page*/
+
+.res{
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+
+.ca{
+    width: 25%;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cb{
+    width: 75%;
+    float: left
+}
+
+
+.ca i.fas, .ca i.far{
+    font-size: 15px;
+}
+.cb h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+.cb p{
+    font-size: 10px;
+}
+.ab{
+    font-size: 15px;
+    width: 75%;
+}
+abd {
+    text-align: center;
+    color: #fff;
+    background: #ffd703;
+    border-radius: 3px;
+    width: 25%;
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+
+
+/*skill card*/
+.skill-card{
+    width: 45% !important;
+    margin-bottom:20px;
+    margin-left: 0 !important;
+    margin-right: 20px;
+    
+}
+.skill-card img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.pic{
+    width: 94%;
+}
+.pic img{
+    width: 31%;
+    height: 70px;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
+
+.mess{
+    width:94%;
+    float: center;
+}
+.message {
+    display: inline-block;
+    position: relative;
+    background: white;
+    margin: 20px 0px 0 0px;
+    border-radius: 5px;
+    }
+
+    .com img{
+        width:70px;
+        height: 70px;
+    }
+
+
+}
+
+
+
+    /*responsive for under 480px only*/
+
+
+@media (max-width: 480px) {
+    
+    /*navbar*/
+    .img{
+        text-align: center;
+    }
+    .tog{
+        margin-top: -128px;
+    }
+    .top{
+        width: 50%;
+        float: right;
+        text-align: center;
+    }
+    .img img{
+        width:70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-left: 100px;
+    }
+    
+    .top h1{
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .top h3{
+        font-weight: 300;
+        text-transform: capitalize;
+        font-size: 13px;
+        
+    }
+    
+    .icon {
+        position: fixed;
+        right: 0;
+        bottom: 40%;
+    }
+    .icon a{
+        display: block;
+        margin: 5px;
+    }
+   
+    .head h1{
+        font-size: 70px;
+        
+        
+    }
+    .head{
+        margin-bottom: 250px;
+    }
+    .var-menu{
+       margin-top: 150px;
+       margin-right: -250px;
+    }
+
+
+
+        /*skill & service*/
+    
+        .skill-card{
+            width: 90% !important;
+            margin-bottom:20px;
+            margin-right: 0px !important;
+            margin-left: 0 !important;
+            
+        }
+        .skill-card img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .pic{
+            width: 90%;
+            float: center
+        }
+        .pic img{
+            width: 75px;
+            height: 70px;
+            margin-left: 4px;
+            margin-bottom: 30px;
+        }
+    
+        .mess{
+            width:90%;
+            float: center;
+        }
+        .message {
+            display: inline-block;
+            position: relative;
+            background: white;
+            margin: 20px 0px 0 0px;
+            border-radius: 5px;
+            }
+    
+    
+            /* contact page*/
+    
+    
+        .res{
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
+        .ca{
+            margin-top: 10px;
+        }
+    
+        .ca i.fas, .ca i.far{
+            font-size: 20px;
+        }
+        .cb h2{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .cb p{
+            font-size: 15px;
+        }
+        .ab{
+            font-size: 18px;
+            width: 75%;
+        }
+        .abd{
+            padding: 18px 0;
+            width: 25%;
+        }
+    
+        /*index*/
+    
+    
+        .button,.video{
+            width:50%;
+            float: left;
+        }
+        .video{
+            margin-top:-5px;
+        }
+                
+        
+    
+    /*portfolio*/
+    
+        .skill-car{
+            width: 90%;
+            position: relative;
+            margin-bottom: 20px;
+    
+        }
+    
+    }
+
+    @media (max-width: 765px) {
+        .top{
+            width: 50%;
+            float: right;
+            text-align: right;
+        }
+        .abd{
+            text-align: center;
+            color: #fff;
+            background: #ffd703;
+            border-radius: 3px;
+            width: 25%;
+            padding: 14px 0;
+        }
+    }
+
+    @media (max-width:780px) {
+        .skill-card{
+            width:30%;
+            margin-right: 15px;
+        }
+    }
+
+   @media (min-width:770px) {
+    .head h1{
+        font-size: 100px;
+        
+        
+    }
+    .head{
+        margin-bottom: 250px;
+    }
+    .var-menu{
+       margin-top: 150px;
+       margin-right: -250px;
+    }
+    .pic img{
+        width: 75px;
+        height: 70px;
+        margin-left: 4px;
+        margin-bottom: 30px;
+    }
+    .ca{
+        margin-top: 10px;
+    }
+
+    .ca i.fas, .ca i.far{
+        font-size: 20px;
+    }
+    .cb h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .cb p{
+        font-size: 15px;
+    }
+    .ab{
+        font-size: 18px;
+        width: 75%;
+    }
+    .abd{
+        padding: 6px 0;
+        width: 25%;
+    }
+    
+
+   }
